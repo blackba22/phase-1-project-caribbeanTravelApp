@@ -1,3 +1,34 @@
 {
-    ""
+  "caribbeanCountries": [
+{
+    "id": "1",
+    "location": "Barbados",
+    "description": "Home to mega-star Rihanna! Come enjoy a wonderful vacation in paradise! ",
+    "pictures": "URL"
+},
+{
+    "id": "2",
+    "location": "Grenada",
+    "description": "Home to one of the most beautiful harbors in the Caribbean! Come enjoy a wonderful vacation in paradise! ",
+    "pictures": "URL"
+},
+{
+    "id": "3",
+    "location": "Jamaica",
+    "description": "Every little thing is gonna be alright here! Come enjoy a wonderful vacation in paradise! ",
+    "pictures": "URL"
+},
+{
+    "id": "4",
+    "location": "Saint Lucia",
+    "description": "Nobody throws a festival like we do! Come enjoy a wonderful vacation in paradise! ",
+    "pictures": "URL"
+},
+{
+    "id": "5",
+    "location": "Trinidad and Tobago",
+    "description": "We've got it all! Come enjoy a wonderful vacation in paradise! ",
+    "pictures": "URL"
+}
+]
 }
