@@ -1,14 +1,12 @@
-console.log("travel app works")
 
-fetch("http://localhost:3000/caribbeanCountries")
-.then (res => res.json())
-.then((caribbeanCountries) => {
-    const container = document.querySelector("form#carribeanCountries");
-    caribbeanCountries.forEach(caribbeanCountry => {
-
-    })
-});
-
-//create a dropdown button where you can select flights or hotels
-//create a like button that you can click and it can highlight or not
-
+document.addEventListener("DOMContentLoaded", () => {
+    fetch("http://localhost:3000/places")
+    .then(res => res.json())
+    .then(places => places.forEach(place  => createCardElement(place)))
+    console.log(places)
+})
+function createCardElement(places) {
+    let card = document.createElement("div")
+    card.classList.add("card") 
+    console.log(places)
+}
