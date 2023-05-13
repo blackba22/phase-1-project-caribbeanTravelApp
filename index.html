@@ -6,17 +6,16 @@
   <script src="travelApp.js" defer></script>
   <link rel="stylesheet" href="./styles.css">
 </head>
-
-<body>
-  <div id="main-content">
-    <h1>Caribbean Travel</h1>
-
-
-    <form id="places-form" class="caribbean">
-    <div id="places-list" class="cards"></div>
-    <fieldset>
-      <legend>Welcome to The Caribbean!!!</legend>
-    </fieldset>
-     
-    
-    </form>
+  <body>
+    <div class="game-container">
+      <h1>Guess the Flag</h1>
+      <img id="flag-img" src="" alt="Flag to guess">
+      <div class="guess-container">
+        <input type="text" id="guess-input" placeholder="Enter your guess">
+        <button id="guess-btn">Guess</button>
+      </div>
+      <div id="message"></div>
+      <button id="restart-btn">Restart</button>
+    </div>
+  </body>
+</html>
