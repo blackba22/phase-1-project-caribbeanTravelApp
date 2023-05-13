@@ -5,21 +5,21 @@
   <title>Guess the Flag</title>
   <script src="travelApp.js" defer></script>
   <link rel="stylesheet" href="./styles.css">
+  <style>
+
+  </style>
 </head>
-  <body>
-    <div class="game-container">
-      <form id="places-form"></form>
-      <ul id="flag-list" class="cards"></ul>
-      <h1>Guess the Flag</h1>
-      <img id="flag-img" src="" alt="Flag to guess">
-      <div class="guess-container">
-        <input type="text" id="guess-input" placeholder="Enter your guess">
-        <button id="guess-btn">Submit</button>
-      </div>
-      <div id="message"></div>
-      <button id="clue-btn">Hint</button>
-      <button id="restart-btn">Restart</button>
+<body>
+  <div class="game-container">
+    <h1>Guess the Flag</h1>
+    <div id="flag-container"></div>
+    <div class="guess-container">
+      <input type="text" id="guess-input" placeholder="Enter your guess">
+      <button id="guess-btn">Submit</button>
     </div>
-    
-  </body>
+    <div id="message"></div>
+    <button id="clue-btn">Hint</button>
+    <button id="restart-btn">Restart</button>
+  </div>
+</body>
 </html>

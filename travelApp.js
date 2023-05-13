@@ -12,17 +12,17 @@ document.addEventListener("DOMContentLoaded", () => {
   
   // Show flags to guess
   function showFlags(places) {
-    places.forEach((place) => {
-      const card = document.createElement("img");
-      card.src = `${place.imageUrl}`;
-      card.classList.add("flag-img");
-      document.querySelector('#flag-list').appendChild(card);
-      
-      console.log(card)
-
-    });
-document.querySelector
+    let card = document.createElement("div")
+    card.className = 'card'
+    card.textContent = 
+      image.src=`${places.imageUrl}`
+    
+    document.querySelector('#places-list').appendChild(card)
   }
+    
+  
+  
+
 
 // get references to HTML elements
 const imageDiv = document.getElementById("image");
@@ -39,7 +39,7 @@ let places = [];
 // select a random place from the places array
 function selectRandomPlace(places) {
   selectedPlace = places[Math.floor(Math.random() * places.length)];
-  imageDiv.style.backgroundImage = `url(${selectedPlace.imageUrl})`;
+  imageDiv.backgroundImage = `url(${selectedPlace.imageUrl})`;
 }
 
 // check if the user's guess is correct
