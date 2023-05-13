@@ -1,5 +1,4 @@
-//Get flag objects loaded to the DOM
-
+// Get flag objects loaded to the DOM
 document.addEventListener("DOMContentLoaded", () => {
     fetch("http://localhost:3000/places")
       .then((res) => res.json())
@@ -10,26 +9,23 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 })    
   
-  // Show flags to guess
-  function showFlags(places) {
-    const flagContainer = document.getElementById("flag-container");
-    
-    places.forEach((place) => {
-      const flagImg = document.createElement("img");
-      flagImg.src = place.imageUrl;
-      flagImg.classList.add("flag-img");
-      
-      flagContainer.appendChild(flagImg);
-    });
-  }
+// Show flags to guess
+function showFlags(places) {
+    const selectedFlag = places[Math.floor(Math.random() * places.length)];
+    const card = document.createElement("img");
+    card.src = `${selectedFlag.imageUrl}`;
+    card.classList.add("flag-img");
+    document.getElementById("flag-list").appendChild(card);
+}
 
 // get references to HTML elements
-const imageDiv = document.getElementById("image");
+const flagList = document.getElementById("flag-list");
 const guessInput = document.getElementById("guess-input");
 const guessBtn = document.getElementById("guess-btn");
 const messageDiv = document.getElementById("message");
 const restartBtn = document.getElementById("restart-btn");
 const clueBtn = document.getElementById("clue-btn");
+
 
 let selectedPlace = {};
 let isGameEnded = false;
@@ -38,7 +34,7 @@ let places = [];
 // select a random place from the places array
 function selectRandomPlace(places) {
   selectedPlace = places[Math.floor(Math.random() * places.length)];
-  imageDiv.backgroundImage = `url(${selectedPlace.imageUrl})`;
+  flagList.src = `${selectedPlace.imageUrl}`;
 }
 
 // check if the user's guess is correct
@@ -70,10 +66,7 @@ function showClue() {
     const clueDiv = document.createElement("div");
     clueDiv.innerText = selectedPlace.clue;
     messageDiv.appendChild(clueDiv);
-  }
-
-
-  
+}
 
 // add event listeners to the guess button, restart button and clue button
 guessBtn.addEventListener("click", checkGuess);
