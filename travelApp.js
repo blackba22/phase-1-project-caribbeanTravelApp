@@ -28,12 +28,12 @@ document.addEventListener("DOMContentLoaded", () => {
       const card = document.createElement("img");
       card.src = `${place.imageUrl}`;
       card.classList.add("flag-img");
-      document.querySelector('#flag-img').appendChild(card);
+      document.querySelector('#flag-list').appendChild(card);
       
       console.log(card)
 
     });
-
+document.querySelector
   }
 /*
 // get references to HTML elements
