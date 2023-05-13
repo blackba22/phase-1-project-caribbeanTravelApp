@@ -25,7 +25,7 @@ document.addEventListener("DOMContentLoaded", () => {
   
   // select a random place from the places array
   function selectRandomPlace() {
-    const placesArr = places.places;
+    const placesArr = place.places;
     selectedPlace = placesArr[Math.floor(Math.random() * placesArr.length)];
     imageDiv.style.backgroundImage = `url(${selectedPlace.imageUrl})`;
   }
