@@ -12,17 +12,16 @@ document.addEventListener("DOMContentLoaded", () => {
   
   // Show flags to guess
   function showFlags(places) {
-    let card = document.createElement("div")
-    card.className = 'card'
-    card.textContent = 
-      image.src=`${places.imageUrl}`
+    const flagContainer = document.getElementById("flag-container");
     
-    document.querySelector('#places-list').appendChild(card)
+    places.forEach((place) => {
+      const flagImg = document.createElement("img");
+      flagImg.src = place.imageUrl;
+      flagImg.classList.add("flag-img");
+      
+      flagContainer.appendChild(flagImg);
+    });
   }
-    
-  
-  
-
 
 // get references to HTML elements
 const imageDiv = document.getElementById("image");
