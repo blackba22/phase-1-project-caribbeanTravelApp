@@ -1,11 +1,14 @@
 body {
     background-color: aqua;
-    border: groove;
+    border: none;
     border-width: 2px;
+    
 }
 img{
     max-width: 40%;
-    height: auto;   
+    height: auto; 
+    border: ridge; 
+    border-color: black; 
 }
 #guess-btn{
     background-color: rgb(253, 250, 253);
@@ -14,4 +17,7 @@ img{
 h1{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: blue
+}
+#message{
+    color: red
 }
