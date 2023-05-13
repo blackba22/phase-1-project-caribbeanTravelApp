@@ -1,6 +1,6 @@
 //Get flag objects loaded to the DOM
 
-function showFlags(places) {
+/*function showFlags(places) {
     console.log(places)
 }
 
@@ -12,7 +12,30 @@ document.addEventListener("DOMContentLoaded", () => {
       selectRandomPlace(places);
     })
 })
+*/
+document.addEventListener("DOMContentLoaded", () => {
+    fetch("http://localhost:3000/places")
+      .then((res) => res.json())
+      .then((places) => {
+        showFlags(places);
+        selectRandomPlace(places);
+      });
+  });
+  
+  // Show flags to guess
+  function showFlags(places) {
+    places.forEach((place) => {
+      const card = document.createElement("img");
+      card.src = `${place.imageUrl}`;
+      card.classList.add("flag-img");
+      document.querySelector('#flag-img').appendChild(card);
+      
+      console.log(card)
 
+    });
+
+  }
+/*
 // get references to HTML elements
 const imageDiv = document.getElementById("image");
 const guessInput = document.getElementById("guess-input");
@@ -67,3 +90,4 @@ clueBtn.addEventListener("mouseover", showClue);
 
 // initialize the game by selecting a random place
 selectRandomPlace(places);
+*/
