@@ -3,32 +3,32 @@
 {
     "id": "1",
     "location": "Barbados",
-    "description": "Home to mega-star Rihanna! Come enjoy a wonderful vacation in paradise! ",
-    "imageUrl": "https://img.theculturetrip.com/wp-content/uploads/2022/01/b8rdn5-e1641559287148.jpg"
+    "clue": "Home to mega-star Rihanna! Come enjoy a wonderful vacation in paradise! ",
+    "imageUrl": "https://cdn.pixabay.com/photo/2013/07/13/14/14/barbados-162239_960_720.png"
 },
 {
     "id": "2",
     "location": "Grenada",
-    "description": "Home to one of the most beautiful harbors in the Caribbean! Come enjoy a wonderful vacation in paradise! ",
-    "imageUrl": "https://cdn.pixabay.com/photo/2019/11/24/18/06/grenada-4649976_960_720.jpg"
+    "clue": "Home to one of the most beautiful harbors in the Caribbean!",
+    "imageUrl": "https://cdn.pixabay.com/photo/2013/07/13/14/15/grenada-162306_960_720.png"
 },
 {
     "id": "3",
     "location": "Jamaica",
-    "description": "Every little thing is gonna be alright here! Come enjoy a wonderful vacation in paradise! ",
-    "imageUrl": "https://cdn.pixabay.com/photo/2020/04/14/15/59/waterfall-5043272_960_720.jp"
+    "clue": "Every little thing is gonna be alright here!",
+    "imageUrl": "https://cdn.pixabay.com/photo/2013/07/13/14/15/jamaica-162327_960_720.png"
 },
 {
     "id": "4",
     "location": "Saint Lucia",
-    "description": "Nobody throws a festival like we do! Come enjoy a wonderful vacation in paradise! ",
-    "imageUrl": "https://cdn.pixabay.com/photo/2013/04/21/13/28/st-lucia-106120_960_720.jpg"
+    "clue": "Home of the world's only drive-in volcano!",
+    "imageUrl": "https://cdn.pixabay.com/photo/2012/04/10/23/21/saint-lucia-26966_960_720.png"
 },
 {
     "id": "5",
     "location": "Trinidad and Tobago",
-    "description": "We've got it all! Come enjoy a wonderful vacation in paradise! ",
-    "imageUrl": "https://cdn.pixabay.com/photo/2016/10/27/05/50/north-coast-trinidad-1773469_960_720.jpg"
+    "clue": "Birthplace of Nicki Minaj",
+    "imageUrl": "https://cdn.pixabay.com/photo/2013/07/13/14/17/trinidad-and-tobago-162442_960_720.png"
 }
 ]
 }

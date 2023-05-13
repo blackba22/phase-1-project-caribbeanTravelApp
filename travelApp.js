@@ -6,14 +6,14 @@ document.addEventListener("DOMContentLoaded", () => {
 })
 
 function showCountries(places) {
-    let card = document.createElement("li")
+    let card = document.createElement("div")
     card.className = 'card'
     card.textContent = `
-      <fieldset>
-      <legend>Travel to Beautiful ${places.location}!</legend>
+      <div class="information">
+      <h2>Travel to Beautiful ${places.location}!</h2>
       <p>${places.description}</p>
       <img src="${places.imageUrl}">
-      </fieldset>
+      </div>
     `
 document.querySelector('#places-list').appendChild(card)
 }
