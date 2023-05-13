@@ -12,15 +12,10 @@ function showCountries(places) {
       <fieldset>
       <legend>Travel to Beautiful ${places.location}!</legend>
       <p>${places.description}</p>
-      
-      
+      <img src="${places.imageUrl}">
       </fieldset>
-
-      
-    
-    
     `
-console.log(card)
+document.querySelector('#places-list').appendChild(card)
 }
 
     
