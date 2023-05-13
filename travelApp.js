@@ -46,10 +46,10 @@ function checkGuess() {
   const guess = guessInput.value.toLowerCase();
 
   if (guess === `${selectedPlace.location}`.toLowerCase()) {
-    messageDiv.innerHTML = "Correct!";
+    messageDiv.textContent = "Correct!";
     isGameEnded = true;
   } else {
-    messageDiv.innerHTML = "Incorrect. Try again.";
+    messageDiv.textContent = "Incorrect. Try again.";
   }
 }
 
@@ -57,14 +57,14 @@ function checkGuess() {
 function resetGame() {
   isGameEnded = false;
   guessInput.value = "";
-  messageDiv.innerHTML = "";
+  messageDiv.textContent = "";
   selectRandomPlace(places);
 }
 
 // show clue to user
 function showClue() {
     const clueDiv = document.createElement("div");
-    clueDiv.innerText = selectedPlace.clue;
+    clueDiv.textContent = selectedPlace.clue;
     messageDiv.appendChild(clueDiv);
 }
 
