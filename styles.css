@@ -1,7 +1,12 @@
 body {
     background-color: aqua;
+    border: groove;
+    border-width: 2px;
 }
 img{
     max-width: 40%;
-    height: auto;
+    height: auto;   
+}
+{
+
 }
