@@ -1,26 +1,14 @@
 //Get flag objects loaded to the DOM
 
-/*function showFlags(places) {
-    console.log(places)
-}
-
-document.addEventListener("DOMContentLoaded", () => {
-    fetch("http://localhost:3000/places")
-    .then(res => res.json())
-    .then(places => {
-      showFlags(places);
-      selectRandomPlace(places);
-    })
-})
-*/
 document.addEventListener("DOMContentLoaded", () => {
     fetch("http://localhost:3000/places")
       .then((res) => res.json())
-      .then((places) => {
+      .then((fetchedPlaces) => {
+        places = fetchedPlaces;
         showFlags(places);
         selectRandomPlace(places);
-      });
-  });
+    });
+})    
   
   // Show flags to guess
   function showFlags(places) {
@@ -35,7 +23,7 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 document.querySelector
   }
-/*
+
 // get references to HTML elements
 const imageDiv = document.getElementById("image");
 const guessInput = document.getElementById("guess-input");
@@ -80,14 +68,18 @@ function resetGame() {
 
 // show clue to user
 function showClue() {
-  console.log(`${selectedPlace.clue}`)
-}
+    const clueDiv = document.createElement("div");
+    clueDiv.innerText = selectedPlace.clue;
+    messageDiv.appendChild(clueDiv);
+  }
 
-// add event listeners to the guess button and restart button
+
+  
+
+// add event listeners to the guess button, restart button and clue button
 guessBtn.addEventListener("click", checkGuess);
 restartBtn.addEventListener("click", resetGame);
 clueBtn.addEventListener("mouseover", showClue);
 
 // initialize the game by selecting a random place
 selectRandomPlace(places);
-*/
