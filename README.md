@@ -1,133 +1,87 @@
-<!-- ABOUT THE PROJECT -->
-## About The Project
+# Guess The Caribbean Flag
+> User's will challenge themselves in this fun trivia game where a flag from a country in the Caribbean is shown, and you have to guess the right answer. 
+> Live demo [_here_](https://www.example.com). <!-- If you have the project hosted somewhere, include the link here. -->
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
-
-Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `github_username`, `repo_name`, `twitter_handle`, `linkedin_username`, `email_client`, `email`, `project_title`, `project_description`
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-### Built With
-
-* [![VisualStudioCode][code.visualstudio.com][VisualStudioCode-url]
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-# phase-1-project-guessTheCaribbeanFlag
-
-Challenge yourself in this fun trivia game where you will be shown a flag from a country in the Caribbean, and you have to guess the right answer. No need to sweat it, if you get stumped there is a clue!! Just mouseover the purple hint button and a clue will be revealed.
-Good Luck!
+## Table of Contents
+* [General Info](#general-information)
+* [Technologies Used](#technologies-used)
+* [Features](#features)
+* [Screenshots](#screenshots)
+* [Setup](#setup)
+* [Usage](#usage)
+* [Project Status](#project-status)
+* [Room for Improvement](#room-for-improvement)
+* [Acknowledgements](#acknowledgements)
+* [Contact](#contact)
+<!-- * [License](#license) -->
 
 
-<!-- GETTING STARTED -->
-## Getting Started
+## General Information
+- It is a game that tests a user's knowledge of flags of countries in the Caribbean.
+- If a user is stumped, there is a hint button the user can utilize to help them figure it out.
 
-To get a local copy up and running follow these simple example steps.
 
-### Prerequisites
-
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
-
-### Installation
-
-1. You can use a free API Key at [(https://github.com/public-apis/public-apis)](https://github.com/public-apis/public-apis) or you can create your own db.json using json server.
-2. Clone the repo
-   ```sh
-   git clone https://github.com/github_username/repo_name.git
-   ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+## Technologies Used
+- Visual Studio Code - version 1.78
+- Replit - version 2.0
 
 
 
-<!-- USAGE EXAMPLES -->
+## Features
+List the ready features here:
+- Awesome feature 1
+- Awesome feature 2
+- Awesome feature 3
+
+
+## Screenshots
+![Example screenshot](./img/screenshot.png)
+<!-- If you have screenshots you'd like to share, include them here. -->
+
+
+## Setup
+What are the project requirements/dependencies? Where are they listed? A requirements.txt or a Pipfile.lock file perhaps? Where is it located?
+
+Proceed to describe how to install / setup one's local environment / get started with the project.
+
+
 ## Usage
+How does one go about using it?
+Provide various use cases and code examples here.
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+`write-your-code-here`
 
 
-
-<!-- ROADMAP -->
-## Roadmap
-
-- [ ] Feature 1
-- [ ] Feature 2
-- [ ] Feature 3
-    - [ ] Nested Feature
-
-See the [open issues](https://github.com/github_username/repo_name/issues) for a full list of proposed features (and known issues).
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+## Project Status
+Project is: _in progress_ / _complete_ / _no longer being worked on_. If you are no longer working on it, provide reasons why.
 
 
+## Room for Improvement
+Include areas you believe need improvement / could be improved. Also add TODOs for future development.
 
-<!-- CONTRIBUTING -->
-## Contributing
+Room for improvement:
+- Improvement to be done 1
+- Improvement to be done 2
 
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
-Don't forget to give the project a star! Thanks again!
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+To do:
+- Feature to be added 1
+- Feature to be added 2
 
 
-
-<!-- LICENSE -->
-## License
-
-Distributed under the MIT License. See `LICENSE.txt` for more information.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+## Acknowledgements
+Give credit here.
+- This project was inspired by...
+- This project was based on [this tutorial](https://www.example.com).
+- Many thanks to...
 
 
-
-<!-- CONTACT -->
 ## Contact
-
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email@email_client.com
-
-Project Link: [https://github.com/github_username/repo_name](https://github.com/github_username/repo_name)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+Created by [@flynerdpl](https://www.flynerd.pl/) - feel free to contact me!
 
 
+<!-- Optional -->
+<!-- ## License -->
+<!-- This project is open source and available under the [... License](). -->
 
-<!-- ACKNOWLEDGMENTS -->
-## Acknowledgments
-
-* []()
-* []()
-* []()
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+<!-- You don't have to include all sections - just the one's relevant to your project -->
 
