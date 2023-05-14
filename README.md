@@ -1,6 +1,6 @@
 # Guess The Caribbean Flag
 > User's will challenge themselves in this fun trivia game where a flag from a country in the Caribbean is shown, and you have to guess the right answer. 
-> Live demo [_here_](https://www.example.com). <!-- If you have the project hosted somewhere, include the link here. -->
+> Live demo [_here_](https://youtu.be/HNy0DNb-yFU). 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -13,8 +13,9 @@
 
 
 ## Technologies Used
-- Visual Studio Code - version 1.78
-- Replit 
+* [Visual Studio Code](https://code.visualstudio.com/)
+* [Replit](https://replit.com/)
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -29,8 +30,9 @@ List the ready features here:
 
 
 ## Screenshots
-![Example screenshot](./img/screenshot.png)
-<!-- If you have screenshots you'd like to share, include them here. -->
+![phase-1-project-pic1](https://github.com/blackba22/phase-1-project-guessTheCaribbeanFlag/assets/126513676/7d23a7ad-3c6f-4822-b2a9-884d857d8714)
+![phase-1-project-pic2](https://github.com/blackba22/phase-1-project-guessTheCaribbeanFlag/assets/126513676/449a3303-aba9-4abd-b226-261a162ba7be)
+![phase-1-project-pic3](https://github.com/blackba22/phase-1-project-guessTheCaribbeanFlag/assets/126513676/93ae876e-450c-4f55-9d16-1aa36754840a)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -40,8 +42,6 @@ List the ready features here:
 
 This is an example of how you may give instructions on setting up your project locally.
 To get a local copy up and running follow these simple example steps.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 ### Prerequisites
@@ -67,6 +67,8 @@ This is an example of how to list things you need to use the software and how to
    ```js
    const API_KEY = 'ENTER YOUR API';
    ```
+5. If using a db.json file, make sure your json server is running. 
+6. Connect API or db.json file using fetch.
    
    <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -100,9 +102,9 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email@email_client.com
+Brittany Black - [@brittany.blck22](https://medium.com/@brittany.blck22) - brittany.blck22@gmail.com
 
-Project Link: [https://github.com/github_username/repo_name](https://github.com/github_username/repo_name)
+Project Link: [https://github.com/blackba22/phase-1-project-guessTheCaribbeanFlag](https://github.com/blackba22/phase-1-project-guessTheCaribbeanFlag)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -111,12 +113,11 @@ Project Link: [https://github.com/github_username/repo_name](https://github.com/
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-* []()
-* []()
-* []()
+* [@flynerdpl](https://www.flynerd.pl/)
+* [@othneildrew](https://github.com/othneildrew/Best-README-Template)
+* [Pixabay](https://pixabay.com/)
+* [W3Schools](https://www.w3schools.com/)
 
-## Contact
-Created by [@flynerdpl](https://www.flynerd.pl/) - feel free to contact me!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
